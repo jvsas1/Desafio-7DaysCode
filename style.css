@@ -367,4 +367,58 @@
     font-weight: 400;
     font-size: 16px;
     color: #98A2B3;
+} 
+
+@media(max-width:800px){ 
+
+    .Navbar{
+        display: grid;
+    }
+    .container_esquerda{
+        display: grid;
+    }
+    
+    .metricas{
+        margin-left: 5em;
+        display: grid;
+        /* text-align: center; */
+        justify-content: center;
+        gap:30px;
+    } 
+
+    .vagas{
+        text-align: center;
+    } 
+    
+    .imagem_equipe{
+        max-width: 100%;
+        
+    } 
+
+    .vaga_container{
+        justify-content: center;
+        display: grid;
+    } 
+
+    .container_content{
+        text-align: center;
+        width: 70%;
+    } 
+
+    .logo_container{
+        margin-top: 10px;
+        padding: 3em;
+    }
+    .logo_empresa{
+        width: 15em;
+    }
+
+    .container_esquerda{
+        gap:10px
+    }
+    .lateral_direita{
+       
+       justify-content: center;
+    }
+
 }
